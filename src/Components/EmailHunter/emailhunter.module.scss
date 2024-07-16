@@ -1,0 +1,123 @@
+// .SCSS FILE FOR EMAIL HUNTER
+.emailHunterCard {
+  // border: 1px solid royalblue;
+  border-radius: 10px;
+  margin: 20px;
+
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 400px;
+  gap: 10px;
+  padding: 10px;
+}
+
+// BOX TEXTAREA FOR MIXED TEXT
+.TextZoneEmails {
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h1 {
+    text-align: center;
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+// TEXTAREA INPUT
+.Textareainput {
+  height: 100%;
+}
+
+// BOX RESULT EMAIL
+.ResultEmail {
+  border: 1px solid royalblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding: 10px;
+}
+
+.Emailsareainput {
+  height: 100%;
+}
+.ReadMore {
+  border: 1px solid royalblue;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .headline_tool {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .para_readme {
+    font-weight: 300;
+    color: #191919;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+}
+
+.icon_check {
+  color: green;
+  font-size: 20px;
+}
+
+// BTNS FILTER
+.btns_filter {
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+// ICON UPLOAD
+.icon_upload {
+  font-size: 17px;
+}
+
+// HEADLINE EMAIL GEN
+.headline_emailGen {
+  text-align: center;
+  font-weight: 300;
+  color: #191919;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .emailHunterCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .TextZoneEmails {
+    order: -1;
+  }
+
+  .ResultEmail {
+    order: -1;
+  }
+}

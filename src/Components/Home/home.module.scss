@@ -1,0 +1,52 @@
+// HOME SCSS FILE
+.home_section {
+  //   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+// BACKGROUND AND FEATURES
+.features_tool {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 30px;
+}
+
+.background_an_ul {
+  //   background-color: #191919;
+}
+
+.list_features {
+  //   background-color: #191919;
+  color: #191919;
+  padding: 10px;
+  line-height: 35px;
+}
+
+.img_fix_size {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.headline_solgan {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.btn_start {
+}
+
+.btn_sgetstart {
+  margin-top: 20px;
+  font-weight: 700;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .headline_solgan {
+    text-align: center;
+  }
+}

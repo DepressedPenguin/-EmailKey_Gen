@@ -1,0 +1,123 @@
+// RESULT SECTION
+
+.result_container {
+  // border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.result_keywords_normal {
+  border: 1px solid black;
+  overflow: scroll;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  height: 270px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.result_keywords_hashtag {
+  border: 1px solid #191919;
+  overflow: scroll;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  height: 270px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.result_keywords_comma {
+  border: 1px solid #191919;
+  overflow: scroll;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 270px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn_copy {
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  // position: absolute;
+  // bottom: 0;
+  padding: 5px;
+  margin: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.btn_copy:active {
+  background-color: #007bff;
+  color: white;
+}
+
+.animaion_copy {
+  // border: 1px solid black;
+  transform: scale(1);
+  transition: 2s transform, 1s opacity;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+
+  p {
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+  }
+}
+
+.headline_normal_list {
+  padding: 0;
+  margin: 0;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 3px;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.headline_normal_comma {
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 3px;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.box_container {
+  // border: 1px solid red;
+}
+
+@media only screen and (max-width: 1200px) {
+  .result_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+}

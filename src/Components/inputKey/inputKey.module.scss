@@ -1,0 +1,32 @@
+// InputKey File
+.headline_keyinput {
+  // border: 1px solid black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.form_input {
+  // border: 1px solid black;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  input {
+    width: 45%;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+.loading_zone {
+  // border: 1px solid red;
+  // background-color: red;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

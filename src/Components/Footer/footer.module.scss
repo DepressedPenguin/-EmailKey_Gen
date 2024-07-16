@@ -1,0 +1,23 @@
+// .SCSS FILE FOOTER
+.footer_Card {
+  // border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_penguin {
+  // background-color: whitesmoke;
+  color: #191919;
+  border: 1px solid royalblue;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.omit_deco {
+  text-decoration: none;
+  // color: whitesmoke;
+  cursor: pointer;
+}
