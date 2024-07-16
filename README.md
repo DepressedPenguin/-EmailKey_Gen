@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+<h1>Key Gen Tool</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This repository contains a React component for generating and displaying keywords in various formats. The component includes features for:</p>
 
-Currently, two official plugins are available:
+<ul>
+  <li><strong>Normal Keywords:</strong> Displays a list of keywords.</li>
+  <li><strong>Hashtag Keywords:</strong> Formats keywords as hashtags.</li>
+  <li><strong>Comma-Separated Keywords:</strong> Formats keywords with commas.</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>The component includes:</p>
 
-## Expanding the ESLint configuration
+<ul>
+  <li><strong>State Management:</strong> Uses React state to manage and display lists of keywords.</li>
+  <li><strong>Copy to Clipboard:</strong> Provides buttons to copy keyword lists to the clipboard with animation feedback.</li>
+  <li><strong>Responsive Design:</strong> Designed to be responsive and adaptable to various screen sizes.</li>
+</ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>Features</h2>
+<ul>
+  <li>Normal keyword display</li>
+  <li>Hashtag formatting for social media integration</li>
+  <li>Comma-separated formatting for easy integration with CSVs and other data systems</li>
+  <li>Copy to clipboard functionality with visual feedback</li>
+</ul>
 
-- Configure the top-level `parserOptions` property like this:
+<h2>Installation</h2>
+<p>To use this component in your project, follow these steps:</p>
+<ol>
+  <li>Clone the repository:</li>
+  <pre><code>git clone https://github.com/DepressedPenguin/-EmailKey_Gen/</code></pre>
+  <li>Navigate to the project directory:</li>
+  <pre><code>cd your-repository</code></pre>
+  <li>Install dependencies:</li>
+  <pre><code>npm install</code></pre>
+</ol>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h2>Usage</h2>
+<p>To use the <code>Result</code> component, pass a list of keywords as a prop:</p>
+<pre><code>
+<Result list={["keyword1", "keyword2", "keyword3"]} />
+</code></pre>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>Contributing</h2>
+<p>Feel free to submit issues or pull requests. Contributions are welcome!</p>
+
+
+<h2>Contact</h2>
+<p>For any questions or support, please reach out to <a href="mailto:zakariaelaro@gmail.com">zakariaelaro@gmail.com</a>.</p>
