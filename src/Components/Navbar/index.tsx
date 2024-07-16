@@ -136,7 +136,8 @@ export default function Navbar() {
                     ? `${styles.select_element} ${styles.linkRemove_style}`
                     : styles.linkRemove_style
                 }
-                to="/youtube"
+                to="https://qy2mp3.online/"
+                target="_blank"
               >
                 <li className="li_nav">
                   <i className="bi bi-filetype-mp3"></i> Youtube to Mp3
@@ -148,7 +149,8 @@ export default function Navbar() {
                     ? `${styles.select_element} ${styles.linkRemove_style}`
                     : styles.linkRemove_style
                 }
-                to="/tiktotk"
+                to="https://snaptiktok.site/"
+                target="_blank"
               >
                 <li className="li_nav">
                   <i className="bi bi-tiktok"></i> TikTok Downloader
